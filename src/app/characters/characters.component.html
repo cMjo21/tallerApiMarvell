@@ -1,0 +1,30 @@
+<div class="container">
+
+ <div CLASS="row">
+  <div class="col-sm-3" *ngFor = "let character of allCharacters|async | paginate: { itemsPerPage: 4, currentPage: page }">
+   <div  class="card m-3" style="height:18 rem ">
+     <img src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{character.name}}">
+    
+     <div class="card w-80">
+      <div class="card-body">
+        <h5 class="card-title text-center">{{character.name}}</h5>
+       <a href="{{character.urls[0].url}}" target="_blank" class="btn btn-primary ">Más información</a>
+      </div>
+    </div>
+
+     
+       
+         
+    </div>
+  </div>
+ </div>
+</div>
+
+
+<pagination-controls (pageChange)="page= $event"
+
+previousLabel="Anterior"
+nextLabel="Siguiente"
+></pagination-controls>
+
+

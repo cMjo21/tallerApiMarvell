@@ -1,0 +1,252 @@
+html {
+    background: #fff7f6;
+  }
+  h1 {
+    color: transparent;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  /*-- --*/
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .container.flex-start {
+    justify-content: flex-start;
+  }
+  .container.flex-end {
+    justify-content: flex-end;
+  }
+  .container.center {
+    justify-content: center;
+  }
+  .container.space-between {
+    justify-content: space-between;
+  }
+  .container.space-around {
+    justify-content: space-around;
+  }
+ 
+
+  @media (min-width: 700px) { 
+    .navbar{
+            text-align: center;
+           }
+}
+
+
+
+  
+  .caja{
+
+
+    background: fffff;
+    display: -ms-flexbox;
+    display: flex;
+    align-content: space-around;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    #Bot1{
+      
+      background: transparent;
+      border-color: transparent;
+      border-radius: 80px;
+      height: 60px;
+      width: 60px;
+      margin: 20px;
+     
+    
+    
+    
+     
+    }
+    
+    #Bot1:hover
+    {
+    
+    background: rgb(250, 249, 249);
+    
+    } 
+    
+    #bt1{
+    
+      border-radius: 80px;
+      height: 40px;
+      width: 40px;
+      
+      
+      
+    
+    }
+    
+    
+    
+    
+    
+    .botones1{
+    
+    
+    }
+    
+    .botones2{
+      
+      width: 40px;
+      height: 50px;
+      margin-top: 25px;
+      margin-left: -20px;
+     
+    }
+    
+    #Bot2{
+    background-color: white;  
+    border-color: transparent;
+    border-radius: 30px; 
+    width: 70px;
+    height: 50px;
+    
+    }
+    
+    #Bot2:hover
+    {
+    
+    background: black;
+    color: white;
+    
+    } 
+    
+    
+    
+    .botones3{
+    
+      width: 40px;
+      height: 50px;
+      margin-top: 25px;
+      margin-left: 30px;
+    }
+    
+    #Bot2{
+      background-color: white;  
+      border-color: transparent;
+      border-radius: 30px; 
+      width: 70px;
+      height: 50px;
+      
+      }
+      
+      #Bot2:hover
+      {
+      
+      background: black;
+      color: white;
+      
+      } 
+    
+    
+    
+    
+      @media (min-width: 700px) { 
+        .item-5{
+                text-align: center;
+               }
+    }
+      
+    
+    #barra{
+    
+     
+      background-color: rgb(238, 240, 241);
+      background-repeat: no-repeat;
+      background-position: left;
+      border-color: transparent;
+      background-size:30;
+      padding-left: 30px;
+      border-radius: 25PX;
+      width: 600px;
+      height: 50px;
+      margin-top: 25px;
+      margin-left: 30px;
+      
+    
+     
+    
+    
+    }
+    .botones4{
+      
+      width: 40px;
+      height: 30px;
+      margin-left: -20px;
+      
+      
+    
+    }
+    
+    .botones5{
+      
+      width: 40px;
+      height: 30px;
+      margin-left: 25px
+      
+    }
+    .botones6{
+    
+      width: 40px;
+      height: 30px;
+      margin-left: 25px
+    
+    }
+    
+    #dropdown{
+    
+      width: 40px;
+      height: 30px;
+      margin-left: 50px;
+      margin-top: 30px;
+      background: white;
+    }
+    
+    .drop{
+    background: white;
+    
+    }
+    
+    .grid-contenedor{
+     
+     display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    
+    
+    }
+    
+    
+    .grid-item{
+    
+    width: auto;
+    height: auto;
+    background: red;
+    margin:30px;
+    text-align: center;
+    
+    
+    }
+    
+
+    
+   
